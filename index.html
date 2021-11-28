@@ -9,66 +9,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
     </head>
     <body>
-        <header id="headerSection">
+        <header id="headerSection" class="header-Container">
             <div id="sectionHeader">
                 <a href="#" target="_blank"><img src="img/Logo.png" alt="Qualesce Logo"/></a>
+                <a href="#" target="_blank" class="headerContactUs">Contact Us</a>
             </div>
         </header>
-        <!--<section id="sectionBanners">
-            <div id="sectionBannersAlign">
-                <h2>Intelligence Automation</h2>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <div id="slider">
-                <input type="radio" name="slider" id="slide1" checked>
-                <input type="radio" name="slider" id="slide2">
-                <input type="radio" name="slider" id="slide3">
-                <input type="radio" name="slider" id="slide4">
-                <div id="slides">
-                   <div id="overflow">
-                      <div class="inner">
-                         <div class="slide slide_1">
-                            <div class="slide-content">
-                               <h2>QKnowledge</h2>
-                               <p>Lorem Ipsum has been the industry's standard dummy text ever since 1500s.</p>
-                            </div>
-                         </div>
-                         <div class="slide slide_2">
-                            <div class="slide-content">
-                               <h2>QServices</h2>
-                               <p>Lorem Ipsum has been the industry's standard dummy text ever since 1500s.</p>
-                            </div>
-                         </div>
-                         <div class="slide slide_3">
-                            <div class="slide-content">
-                               <h2>QLabs</h2>
-                               <p>Lorem Ipsum has been the industry's standard dummy text ever since 1500s.</p>
-                            </div>
-                         </div>
-                         <div class="slide slide_4">
-                            <div class="slide-content">
-                               <h2>QCloud</h2>
-                               <p>Lorem Ipsum has been the industry's standard dummy text ever since 1500s.</p>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-                <div id="controls">
-                   <label for="slide1"></label>
-                   <label for="slide2"></label>
-                   <label for="slide3"></label>
-                   <label for="slide4"></label>
-                </div>
-                <div id="bullets">
-                   <label for="slide1"></label>
-                   <label for="slide2"></label>
-                   <label for="slide3"></label>
-                   <label for="slide4"></label>
-                </div>
-             </div>
-            </div>
-        </section>-->
         <section id="sectionVideo">
             <div id="sectionVideoAlign">
                 <h2>Video</h2>
@@ -154,30 +100,35 @@
                   <li><a><img src="img/cardinal-heallth.png" alt="cardinal health logo" class="chLogo"/></a></li>
                   <li><a><img src="img/first-data.png" alt="first data logo" class="fdLogo"/></a></li>
                   <li><a><img src="img/ibm.png" alt="ibm logo" class="ibmLogo"/></a></li>
-                  <!--<li><a href="" target="_blank"><img src="img/sqs.png" alt="sqs logo" class=""/></a></li>-->
               </ul>
             </div>
         </section>
-        <section id="sectionFunctionAutomated">
+        <section id="sectionFunctionAutomated" class="three">
             <div id="sectionFunctionAutomatedAlign">
-                <h2>Functions Automated</h2>
-                <a class="bpAutomateMain">Business Process Automated</a>
+                <h2>Our Automated Stats</h2>
+                <!-- <a class="bpAutomateMain">Business Process Automated</a>
                 <a class="funAutomatedMain">Functions Automated</a><br>
                 <a class="bpAutomated">20</a>
-                <a class="funAutomated">21</a>
+                <a class="funAutomated">21</a> -->
+                <div class="nums">
+                  <ul>
+                      <li>No of Customers
+                          <div class="num" data-goal="102">23</div>
+                      </li>
+                      <li>Processes
+                          <div class="num" data-goal="153324">153200</div>
+                      </li>
+                      <li>Functions
+                          <div class="num" data-goal="35">12</div>
+                      </li>
+                      <li>Cloud Applications
+                          <div class="num" data-goal="25">09</div>
+                      </li>
+                  </ul>
+              </div>
             </div>
         </section>
-        <!--<section id="sectionCareer">
-            <div id="sectionCulture">
-                <h2>Culture</h2>
-            </div>
-            <div id="sectionCareerAlign">
-                <h2 class="firstH2">Expanding Your Career</h2>
-                <h2 class="secondH2">With</h2>
-                <h2 class="ThirdH2">Qualesce</h2>
-                <a href="#" target=" ">apply <strong>here</strong></a>
-            </div>
-        </section>-->
+        <script src="js/main.js"></script>
         <section>
           <div id="sectionCulture">
               <h2>Culture</h2>
@@ -189,20 +140,34 @@
               <a href="" target="">apply <strong>here</strong></a>
           </div>
       </section>
+      <section class="stayConnected-Container">
+          <div id="sectionStayConnected">
+              <h2>Stay Connected</h2>
+              <input type="text" placeholder="Full Name" required>
+              <input type="text" placeholder="Work Mail" required>
+              <button>Connect</button>
+              <div id="policy">
+                  <p><input type="checkbox">I agree to receive Lorem Ipsum Lorem Ipsum Lorem Ipsum <a href="#" target="_blank" class="qualescePolicy">
+                      Qualesce Privacy Policy
+                  </a></p>
+              </div>
+          </div>
+      </section>
         <section id="sectionAboutUs">
             <div id="sectionAboutUsAlign">
                 <h2>About Us</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.</p>
-            </div>
+                <p>Qualesce is passionate about taking complex repeatable processes and automating them.  With over 100 high-value customer interactions and over 150,000 business processes automated, Qualesce is redefining the velocity benchmark of delivering robust and sustainable automation.  The velocity to deliver is based on qKnowledge pillar that is a repository of pre-built automation which enables rapid creation of automation assets.  The robust and sustainable automation is based on intrinsic self-healing closed loop algorithms used in the automation assets.</p>
+                <p>Qualesce is pioneering digital workers that are not only providing cost efficiencies and revenue improvement but also focused on improving the quality of life of our customers' employees.  Employees are looking for a digital twin that can take on mundane tasks so they can focus on business-critical tasks and enjoy the ever-evasive work-life balance.  Qualesce is committed to redefining the workplace experience by having every employee accompanied with a digital twin assistant that creates a better life experience for the employees.</p>
+              </div>
         </section>
-        <section>
+
+        <!-- Start Commenting Chat Bot Section -->
+        <!-- <section>
           <a class="chatboxLogo" href="https://tawk.to/chat/61930d556885f60a50bbf27e/default" target="
                     _blank"><img src="img/tawk-logo.png" alt="twak-logo" /></a>
-        </section>
+        </section> -->
+        <!-- Close Comment on Chat Bot Section -->
+        
         <footer>
             <div id="sectionFooter">
                 <div id="sectionFooterUpper">
