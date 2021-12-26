@@ -9,17 +9,25 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
     </head>
     <body>
-        <header id="headerSection" class="header-Container">
-            <div id="sectionHeader">
-                <a href="#" target="_blank"><img src="img/Logo.png" alt="Qualesce Logo"/></a>
-                <a href="#" target="_blank" class="headerContactUs">Contact Us</a>
-            </div>
-        </header>
+      <header id="headerSection" class="header-Container">
+        <div id="sectionHeader">
+            <ul>
+                <li><a href="#" target="_blank"><img src="img/Logo.png" alt="Qualesce Logo"/></a></li>
+                <li><a href="#" target="_blank" class="contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
         <section id="sectionVideo">
             <div id="sectionVideoAlign">
                 <h2>Video</h2>
                 <p>Click to know more</p>
             </div>
+        </section>
+        <section id="sectionQuotes">
+          <div id="sectionQuotesAlign">
+            <p>“The best way to predict the future is to <strong>create</strong> it.”</p>
+            <h2>-Peter Drucker</h2>
+          </div>
         </section>
         <section id="sectionOurpartners">
           <div id="sectionOurpartnersAlign">
@@ -77,6 +85,12 @@
                   </div>
                 </div>
         </section>
+        <section id="sectionQuotes">
+          <section id="sectionQuotesAlign">
+              <p>"<strong>Quality</strong> means doing it right when no one is looking.”</p>
+              <h2>-Henry Ford</h2>
+          </section>
+      </section>
         <section id="sectionOurpartners">
             <div id="sectionOurpartnersAlign">
                 <h2>Our Marquee Customers</h2>
@@ -103,6 +117,12 @@
               </ul>
             </div>
         </section>
+        <section id="sectionQuotes">
+          <div id="sectionQuotesAlign">
+            <p>“Give them <strong>quality</strong>. That’s the best kind of advertising in the world.”</p>
+            <h2>-Milton S. Hershey</h2>
+          </div>
+        </section>
         <section id="sectionFunctionAutomated" class="three">
             <div id="sectionFunctionAutomatedAlign">
                 <h2>Our Automated Stats</h2>
@@ -116,7 +136,7 @@
                           <div class="num" data-goal="102">23</div>
                       </li>
                       <li>Processes
-                          <div class="num" data-goal="153328">153200</div>
+                          <div class="num" data-goal="153329">153200</div>
                       </li>
                       <li>Functions
                           <div class="num" data-goal="35">12</div>
@@ -127,6 +147,12 @@
                   </ul>
               </div>
             </div>
+        </section>
+        <section id="sectionQuotes">
+          <div id="sectionQuotesAlign">
+            <p>“<strong>Quality</strong> is remembered long after the price is forgotten.”</p>
+            <h2>-Sir Henry Royce</h2>
+          </div>
         </section>
         <script src="js/main.js"></script>
         <section>
@@ -141,19 +167,26 @@
           </div>
       </section>
       <section class="stayConnected-Container">
-          <div id="sectionStayConnected">
-              <h2>Stay Connected</h2>
-              <input type="text" placeholder="Full Name" required>
-              <input type="text" placeholder="Work Mail" required>
-              <button>Connect</button>
-              <div id="policy">
-                  <p><input type="checkbox">I agree to receive mail from <a href="#" target="_blank" class="qualescePolicy">
-                      Qualesce Privacy Policy
-                  </a></p>
-              </div>
-          </div>
+        <div id="sectionStayConnected">
+            <h2>Stay Connected</h2>
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Work Mail" required>
+            <input type="submit" id="enable_button" value="Connect" disabled>
+            <div id="policy">
+                <p><input type="checkbox" onclick="enablepolicy(this)" required>I agree to receive mail from <a href="qualesceprivacypolicy.html" target="_blank" class="qualescePolicy">
+                    Qualesce Privacy Policy
+                </a></p>
+            </div>
+        </div>
+    </section>
+    <script src="js/enabledisable.js"></script>
+      <section id="sectionQuotes">
+        <div id="sectionQuotesAlign">
+          <p>“<strong>Quality</strong> is not an act, it is a habit.”</p>
+          <h2>-Aristotle</h2>
+        </div>
       </section>
-        <section id="sectionAboutUs">
+      <section id="sectionAboutUs">
             <div id="sectionAboutUsAlign">
                 <h2>About Us</h2>
                 <p>Qualesce is passionate about taking complex repeatable processes and automating them.  With over 100 high-value customer interactions and over 150,000 business processes automated, Qualesce is redefining the velocity benchmark of delivering robust and sustainable automation.  The velocity to deliver is based on qKnowledge pillar that is a repository of pre-built automation which enables rapid creation of automation assets.  The robust and sustainable automation is based on intrinsic self-healing closed loop algorithms used in the automation assets.</p>
@@ -174,12 +207,13 @@
                     <h2>Follow for more on</h2>
                 </div>
                 <div id="sectionFooterMiddle">
-                    <a href="" target="_blank"><img src="img/linkedin (2).png" alt="Linkedin logo"/></a>
+                    <a href="https://www.linkedin.com/company/qualesce-llc" target="_blank"><img src="img/linkedin (2).png" alt="Linkedin logo"/></a>
                     <a href="" target="_blank"><img src="img/facebook (1).png" alt="Facebook logo" /></a>
                     <a href="" target="_blank"><img src="img/twitter (1).png" alt="Twitter logo" /></a>
                     <a href="" target="_blank"><img src="img/instagram (2).png" alt="Instagram logo" /></a>
                     <a href="" target="_blank"><img src="img/youtube.png" alt="" alt="Youtube logo"/></a>
-                    <a href="https://www.google.com/maps/dir//qualesce+india+private+limited/@13.0120948,77.6050925,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae15dcba5723ed:0x8c0813f9284b4171!2m2!1d77.6379951!2d12.9825021" target="_blank"><img src="img/location.png" alt="" alt="Location logo"/></a>
+                    <a href="https://www.google.com/maps/dir//qualesce+india+private+limited/@13.0120948,77.6050925,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae15dcba5723ed:0x8c0813f9284b4171!2m2!1d77.6379951!2d12.9825021" target="_blank"><img src="img/loc-India.png" alt="India Location logo"/></a>
+                    <a href="https://www.google.co.in/maps/dir//2591+Dallas+Pkwy+%23300,+Frisco,+TX+75034,+USA/@33.0998024,-96.8272355,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x864c3c99fa1c8405:0xa338bd2504553d4e!2m2!1d-96.8250468!2d33.0997979" target="_blank"><img src="img/loc-USA.png" alt="USA Location logo"/></a>
                 </div>
                 <div id="sectionFooterLower">
                     <h2>Qualesce</h2>
