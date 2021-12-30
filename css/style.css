@@ -19,7 +19,7 @@ html {
 #sectionBannersAlign, 
 #sectionOurpartnersAlign, 
 #sectionFunctionAutomatedAlign, 
-#sectionCareerAlign, 
+#sectionCultureAlign, 
 #sectionStayConnected, 
 #sectionAboutUsAlign, 
 #sectionFooter {
@@ -296,6 +296,29 @@ html {
     color: black;
   }
 
+  .flip-card-front h2 {
+      font-weight: bold !important;
+      color: #fff;
+      text-shadow: 4px 4px 10px #000;
+  }
+
+.qKnowledgeFrontImage {
+      background: url('../img/qKnowledge1.jpg') no-repeat;
+      background-size: 280px 250px;
+ }
+ .qServiceFrontImage {
+     background: url('../img/qServices1.jpg') no-repeat;
+     background-size: 280px 250px;
+ }
+ .qLabsFrontImage {
+    background: url('../img/qLabs1.jpg') no-repeat;
+    background-size: 280px 250px;
+}
+.qCloudFrontImage {
+    background: url('../img/qCloud1.jpg') no-repeat;
+    background-size: 280px 250px;
+}
+
   /* Changing the font weight*/
 
   .flip-card-front h2 {
@@ -410,22 +433,20 @@ a.funAutomated {
 }
 
 /* Start of Culture and Career CSS */
-#sectionCulture, #sectionCareer {
+#sectionCultureCareer div {
     display: inline-block;
-    margin: 0 105px;
-    text-align: center;
+    margin: 0 100px;
 }
 #sectionCulture {
-    background-color: #C2AAAA;
-    width: 400px;
-    height: 300px;
+    background-color: #c2aaaa;
+    width: 350px;
+    height: 250px;
 }
 #sectionCulture h2 {
-    margin: 220px 0 0 0;
+    margin: 140px 0 0 0;
 }
-#sectionCareer h2 {
-    font-size: 34px;
-    font-weight: 200;
+#sectionCulture p {
+    padding: 10px 0 0 0;
 }
 #sectionCareer .firstH2 {
     margin: 120px 0 0 0;
@@ -433,6 +454,10 @@ a.funAutomated {
 #sectionCareer .ThirdH2 {
     font-weight: 500;
     margin: 0 0 40px 0;
+}
+#sectionCareer h2 {
+font-size: 34px;
+font-weight: 200;
 }
 #sectionCareer a {
     background-color: #000;
@@ -473,8 +498,8 @@ a.funAutomated {
 #sectionStayConnected #enable_button {
     cursor: not-allowed;
 }
-/*
-#sectionStayConnected .button {
+
+#sectionStayConnected button {
     margin: 20px 5px;
     padding: 11px 40px;
     background-color: #000;
@@ -485,13 +510,13 @@ a.funAutomated {
     cursor: pointer;
     transition: color 1.5s ease-out;
 }
-#sectionStayConnected .button:hover {
+#sectionStayConnected button:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid black;
     transition: color 1.5s ease-out;
-}*/
-#policy {
+}
+/* #policy {
     margin: 15px 0 0 0;
 }
 #sectionStayConnected #policy p {
@@ -499,7 +524,7 @@ a.funAutomated {
 }
 #sectionStayConnected #policy a.qualescePolicy {
     text-decoration: underline;
-}
+} */
 /* End of Stay Connected CSS */
 
 /* Start of About Us CSS */
@@ -556,16 +581,18 @@ footer {
 
 /* Start of Chat box CSS */
 
-/* a.chatboxLogo img {
-    border: 5px solid green;
-    border-radius: 50%;
+a.chatboxLogo img {
+    /* border: 5px solid green;
+    border-radius: 50%; */
     width: 75px;
 }
 a.chatboxLogo {
     right: 0;
     position: fixed;
-    bottom: 0;
-} */
+    bottom: 60px;
+    /* margin-bottom: 100px; */
+    /* z-index: 1; */
+}
 
 /* End of Chat Box CSS */
 
