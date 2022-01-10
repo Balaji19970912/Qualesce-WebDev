@@ -19,7 +19,7 @@ html {
 #sectionBannersAlign, 
 #sectionOurpartnersAlign, 
 #sectionFunctionAutomatedAlign, 
-#sectionCultureAlign, 
+#sectionCultureCareer, 
 #sectionStayConnected, 
 #sectionAboutUsAlign, 
 #sectionFooter {
@@ -67,7 +67,7 @@ html {
     position: absolute;
     right: 100px;
     top: 30px;
-    background: #000;
+    background: #283E46;
     color: #fff;
     padding: 14px 45px;
     border-radius: 45px;
@@ -80,8 +80,8 @@ html {
     transition: color 1.5s ease-out;
     cursor: pointer;
     background: #fff;
-    color: #000;
-    border: 1px solid #000;
+    color: #283E46;
+    border: 1px solid #283E46;
 }
 
 .header-Container {
@@ -95,10 +95,18 @@ html {
 }
 /* End Header Section CSS */
 
+/* Start of Banner Section CSS*/
+
+#bannerImage {
+    margin: 90px 0 0 0;
+}
+
+/* End of Banner Section CSS*/
+
 /* Start of Quotes CSS */
 
 #sectionQuotes {
-    background-color: #000;
+    background-color: #283E46;
     padding: 50px 50px;
 }
 #sectionQuotesAlign p {
@@ -109,11 +117,12 @@ html {
 }
 #sectionQuotesAlign p strong {
     font-weight: 700;
+    color: #D9A83A;
 }
 #sectionQuotesAlign h2 {
     font-size: 30px;
     margin: 15px 0 0 0;
-    color: #fff;
+    color: #D9A83A;
 }
 
 /* End of Quotes CSS */
@@ -303,27 +312,31 @@ html {
   }
 
 .qKnowledgeFrontImage {
-      background: url('../img/qKnowledge1.jpg') no-repeat;
+      /* background: url('../img/QKnowledge\ \(1\).svg') no-repeat; */
+      /* background: url(../img/Qknowledgee.png) no-repeat; */
+      background: url(../img/QKnowledge-1.svg) no-repeat;
+      /* background-size: 310px 250px; */
       background-size: 280px 250px;
  }
  .qServiceFrontImage {
-     background: url('../img/qServices1.jpg') no-repeat;
-     background-size: 280px 250px;
+     background: url('../img/QServices.svg') no-repeat;
+     /* background-size: 280px 250px; */
  }
  .qLabsFrontImage {
-    background: url('../img/qLabs1.jpg') no-repeat;
-    background-size: 280px 250px;
+    background: url('../img/QLabs.svg') no-repeat;
+    /* background-size: 280px 250px; */
 }
 .qCloudFrontImage {
-    background: url('../img/qCloud1.jpg') no-repeat;
-    background-size: 280px 250px;
+    /* background: url('../img/QCloud.svg') no-repeat; */
+    background: url(../img/QCloud-1.svg) no-repeat;
+    /* background-size: 280px 250px; */
 }
 
   /* Changing the font weight*/
 
   .flip-card-front h2 {
       font-weight: 400;
-      margin: 100px 0;
+      margin: 120px 0;
   }
 
   .flip-card-back h1 {
@@ -332,8 +345,8 @@ html {
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: #76B7B7;
+    color: #000;
     transform: rotateY(180deg);
   }
   
@@ -364,9 +377,9 @@ html {
     font-weight: 300;
 }
 #sectionOurpartnersAlign h2 {
-    font-size: 60px;
-    margin: 80px 0 0 0;
-    font-weight: 300;
+    margin: 80px 0 20px 0;
+    font-weight: 700;
+    font-size: 75px;
 }
 
 #sectionOurpartnersAlign img {
@@ -386,12 +399,11 @@ ul li {
 
 /* Start Our Stats CSS*/
 #sectionFunctionAutomated {
-    background-color: #C4C4C4;
-    height: 460px;
+    margin: 0 0 150px 0;
 }
 #sectionFunctionAutomatedAlign h2 {
-    font-size: 60px;
-    font-weight: 300;
+    font-weight: 700;
+    font-size: 75px;
     padding: 100px 0 60px 0;
 }
 #sectionFunctionAutomatedAlign .nums ul li {
@@ -402,6 +414,7 @@ ul li {
 #sectionFunctionAutomatedAlign .nums .num {
     font-size: 70px;
     font-weight: bold;
+    color: #283E46;
 }
 /* #sectionFunctionAutomatedAlign a {
     display: inline-block;
@@ -435,10 +448,10 @@ a.funAutomated {
 /* Start of Culture and Career CSS */
 #sectionCultureCareer div {
     display: inline-block;
-    margin: 0 100px;
+    margin: 0 80px;
 }
 #sectionCulture {
-    background-color: #c2aaaa;
+    background-color: #76B7B7;
     width: 350px;
     height: 250px;
 }
@@ -460,7 +473,7 @@ font-size: 34px;
 font-weight: 200;
 }
 #sectionCareer a {
-    background-color: #000;
+    background-color: #283E46;
     color: #fff;
     padding: 20px 100px;
     font-size: 30px;
@@ -471,8 +484,8 @@ font-weight: 200;
 }
 #sectionCareer a:hover {
     transition: color 1.5s ease-out;
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #283E46;
+    color: #283E46;
     background-color: #fff;
 }
 /* End of Culture and Career CSS */
@@ -486,8 +499,8 @@ font-weight: 200;
     box-shadow: 0px 8px 35px 0px #c4c4c4;
 }
 #sectionStayConnected h2 {
-    font-size: 60px;
-    font-weight: 400;
+    font-size: 75px;
+    font-weight: 700;
     margin: 20px auto;
 }
 #sectionStayConnected input {
@@ -502,9 +515,9 @@ font-weight: 200;
 #sectionStayConnected button {
     margin: 20px 5px;
     padding: 11px 40px;
-    background-color: #000;
+    background-color: #283E46;
     color: #fff;
-    border: 1px solid black;
+    border: 1px solid #283E46;
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
@@ -512,8 +525,8 @@ font-weight: 200;
 }
 #sectionStayConnected button:hover {
     background-color: #fff;
-    color: #000;
-    border: 1px solid black;
+    color: #283E46;
+    border: 1px solid #283E46;
     transition: color 1.5s ease-out;
 }
 /* #policy {
@@ -528,21 +541,21 @@ font-weight: 200;
 /* End of Stay Connected CSS */
 
 /* Start of About Us CSS */
-#sectionAboutUs {
+/* #sectionAboutUs {
     background-color: #C4C4C4;
     height: 300px;
     margin: 120px 0 0px 0;
-}
+} */
 #sectionAboutUsAlign h2 {
-    font-weight: 300;
-    font-size: 60px;
-    padding: 80px 0 20px 0;
+    font-size: 75px;
+    font-weight: 700;
+    padding: 40px 0 20px 0;
 }
 #sectionAboutUsAlign p {
     text-align: center;
-    margin: 8px 0 0 0;
+    margin: 15px 0 0 0;
     line-height: 22px;
-    word-spacing: 2px;
+    word-spacing: 1.1px;
     font-size: 18px;
 }
 #sectionAboutUsAlign p::selection {
@@ -551,20 +564,21 @@ font-weight: 200;
 }
 /* End of About Us CSS */
 
-footer {
+/* footer {
     background-color: #c4c4c4;
-}
-#sectionFooterUpper {
+} */
+/* #sectionFooterUpper {
     padding: 120px 0 0 0;
-}
+} */
 #sectionFooterUpper h2 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 22px;
+    margin: 25px 0;
 }
-#sectionFooterMiddle {
+/* #sectionFooterMiddle {
     padding: 80px 0 20px 0;
     margin: -45px 0 0 0;
-}
+} */
 #sectionFooterMiddle a {
     display: inline-block;
     margin: 0 10px;
@@ -574,8 +588,8 @@ footer {
     border-radius: 50%;
 }
 #sectionFooterLower h2{
-    padding: 0 0 20px 0;
-    font-weight: 400;
+    margin: 15px 0;
+    font-weight: 500;
     color: #000;
 }
 
@@ -660,10 +674,10 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-.fade img {
+/* .fade img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-}
+} */
 
 /* The dots/bullets/indicators */
 .dot {
@@ -705,3 +719,95 @@ img {vertical-align: middle;}
 }
 
 /**/
+
+/******************************
+****
+    Responsive design starts from here
+****/
+
+/** Start Responsive for min-width 320px **/
+
+@media screen and (max-width: 320px) {
+    #sectionHeader ul li img {
+        left: 30px;
+    }
+    #bannerImage {
+        width: 320px;
+    }
+    .text {
+        font-size: 30px;
+    }
+    #sectionQuotesAlign p {
+        font-size: 16px;
+    }
+    #sectionQuotesAlign h2 {
+        font-size: 16px;
+    }
+    #sectionOurpartnersAlign h2 {
+        margin: 50px 0 20px 0;
+        font-size: 32px;
+    }
+    #sectionOurpartnersAlign h2 {
+        font-size: 32px;
+    }
+    #sectionFunctionAutomatedAlign h2 {
+        font-size: 32px;
+        margin: -50px 0;
+    }
+    #sectionFunctionAutomatedAlign .nums ul {
+        margin: 0 0 -100px 0;
+    }
+    #sectionFunctionAutomatedAlign .nums ul li {
+        display: inline-block;
+        font-size: 12px;
+        margin: 20px 25px;
+    }
+    #sectionFunctionAutomatedAlign .nums .num {
+        font-size: 26px;
+    }
+    #sectionCulture {
+        width: 320px;
+        text-align: center;
+    }
+    #sectionCultureCareer div {
+        margin: 0 0;
+    }
+    #sectionCareer a {
+        padding: 20px 50px;
+        text-align: center;
+    }
+    #sectionStayConnected h2 {
+        font-size: 32px;
+    }
+    #sectionStayConnected input {
+        margin: 5px auto;
+    }
+    #sectionStayConnected button {
+        margin: 5px 0 0 0;
+        padding: 11px 110px;
+    }
+    #sectionAboutUsAlign h2 {
+        font-size: 32px;
+    }
+    #sectionAboutUsAlign p {
+        font-size: 12px;
+        text-align: justify;
+        margin: auto 20px;
+        line-height: 16px;
+    }
+    #sectionAboutUsAlign p.secondSetence {
+        margin: 10px 20px 0 20px;
+    }
+    #sectionFooterUpper h2 {
+        font-size: 18px;
+    }
+    #sectionFooterMiddle img {
+        width: 20px;
+        display: inline-block;
+    }
+    a.chatboxLogo img {
+        width: 50px;
+    }
+}
+
+/** End Responsive for min-width 320px **/
