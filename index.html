@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Qualesce-WebDev-1.0</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
@@ -23,31 +24,31 @@
                 <p>Click to know more</p>
             </div>
         </section> -->
-        <section>
+        <section id="bannerSection">
         <div class="slideshow-container">
 
           <div class="mySlides fade">
             <!-- <div class="numbertext">1 / 4</div> -->
-            <img src="img/qKnowledge.jpg" style="width:100%" height="600px">
-            <div class="text">QKnowledge</div>
+            <img src="img/qKnowledge.jpg" alt="Intelligence Automation Logo" id="bannerImage" style="width:100%" height="600px">
+            <div class="text">Intelligence Automation</div>
           </div>
           
           <div class="mySlides fade">
             <!-- <div class="numbertext">2 / 4</div> -->
-            <img src="img/qServices.jpg" style="width:100%" height="600px">
-            <div class="text">QServices</div>
+            <img src="img/qServices.jpg" alt="Worksoft Logo" id="bannerImage" style="width:100%" height="600px">
+            <div class="text">Worksoft</div>
           </div>
           
           <div class="mySlides fade">
             <!-- <div class="numbertext">3 / 4</div> -->
-            <img src="img/qLabs.jpg" style="width:100%" height="600px">
-            <div class="text">QLabs</div>
+            <img src="img/esg.svg" alt="ESG Logo" id="bannerImage" style="width:100%" height="600px">
+            <div class="text">Environmental, social and corporate governance</div>
           </div>
-          <div class="mySlides fade">
-              <!-- <div class="numbertext">4 / 4</div> -->
+          <!-- <div class="mySlides fade">
+              <div class="numbertext">4 / 4</div>
               <img src="img/qCloud.jpg" style="width:100%" height="600px">
               <div class="text">QCloud</div>
-            </div>
+            </div> -->
           
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -59,7 +60,7 @@
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span> 
+            <!-- <span class="dot" onclick="currentSlide(4)"></span>  -->
           </div>
           
           <script>
@@ -99,7 +100,7 @@
         </section>
         <section id="sectionOurpartners">
           <div id="sectionOurpartnersAlign">
-              <h2>Intelligence Automation</h2>
+              <h2>Our Four Pillars</h2>
           </div>
           </section>
         <section id="sectionFlipCards">
@@ -110,7 +111,7 @@
                       <h2>QKnowledge</h2>
                     </div>
                     <div class="flip-card-back">
-                      <h1>qKnowledge</h1> 
+                      <h1>QKnowledge</h1> 
                       <p>A library of prebuilt automation that is easy to adapt using embedded metadata.</p> 
                     </div>
                   </div>
@@ -119,10 +120,10 @@
                 <div class="flip-card" id="FlipCards">
                     <div class="flip-card-inner">
                       <div class="flip-card-front qServiceFrontImage">
-                        <h2>QServices</h2>
+                        <h2>QService</h2>
                       </div>
                       <div class="flip-card-back">
-                        <h1>qService</h1> 
+                        <h1>QService</h1> 
                       <p>On-demand resource strategy: T&M (Time and Material) or outcome based.</p>
                       </div>
                     </div>
@@ -131,10 +132,10 @@
                   <div class="flip-card" id="FlipCards">
                     <div class="flip-card-inner">
                       <div class="flip-card-front qLabsFrontImage">
-                        <h2>QLabs</h2>
+                        <h2>QLab</h2>
                       </div>
                       <div class="flip-card-back">
-                        <h1>qLabs</h1> 
+                        <h1>QLab</h1> 
                       <p>Vertically focused automation applying low-code to no-code.</p>
                       </div>
                     </div>
@@ -146,7 +147,7 @@
                         <h2>QCloud</h2>
                       </div>
                       <div class="flip-card-back">
-                        <h1>qCloud</h1> 
+                        <h1>QCloud</h1> 
                       <p>Digital workers doing data driven transformation via ETL (Export Transform Load) automation.</p>
                       </div>
                     </div>
@@ -204,7 +205,7 @@
                           <div class="num" data-goal="102">23</div>
                       </li>
                       <li>Processes
-                          <div class="num" data-goal="153329">153200</div>
+                          <div class="num" data-goal="153333">153200</div>
                       </li>
                       <li>Functions
                           <div class="num" data-goal="35">12</div>
@@ -237,6 +238,7 @@
               </div>
           </div>
       </section>
+      <div  id="stayConnectedSection"></div>
       <section class="stayConnected-Container">
         <div id="sectionStayConnected">
             <h2>Stay Connected</h2>
@@ -262,13 +264,13 @@
             <div id="sectionAboutUsAlign">
                 <h2>About Us</h2>
                 <p>Qualesce is passionate about taking complex repeatable processes and automating them.  With over 100 high-value customer interactions and over 150,000 business processes automated, Qualesce is redefining the velocity benchmark of delivering robust and sustainable automation.  The velocity to deliver is based on qKnowledge pillar that is a repository of pre-built automation which enables rapid creation of automation assets.  The robust and sustainable automation is based on intrinsic self-healing closed loop algorithms used in the automation assets.</p>
-                <p>Qualesce is pioneering digital workers that are not only providing cost efficiencies and revenue improvement but also focused on improving the quality of life of our customers' employees.  Employees are looking for a digital twin that can take on mundane tasks so they can focus on business-critical tasks and enjoy the ever-evasive work-life balance.  Qualesce is committed to redefining the workplace experience by having every employee accompanied with a digital twin assistant that creates a better life experience for the employees.</p>
+                <p class="secondSetence">Qualesce is pioneering digital workers that are not only providing cost efficiencies and revenue improvement but also focused on improving the quality of life of our customers' employees.  Employees are looking for a digital twin that can take on mundane tasks so they can focus on business-critical tasks and enjoy the ever-evasive work-life balance.  Qualesce is committed to redefining the workplace experience by having every employee accompanied with a digital twin assistant that creates a better life experience for the employees.</p>
               </div>
         </section>
 
         <!-- Start Commenting Chat Bot Section -->
         <section>
-          <a class="chatboxLogo" href="#sectionStayConnected"><img src="img/email (1).png" alt="Email-Logo" /></a>
+          <a class="chatboxLogo" href="#stayConnectedSection"><img src="img/mail-envelop.svg" alt="Email-Logo" /></a>
         </section>
         <!-- Close Comment on Chat Bot Section-->
         
