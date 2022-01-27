@@ -29,6 +29,16 @@ html {
     max-width: 1200px;
 }
 
+/**/
+#bannerSection .text {
+    color: white;
+    font-size: 70px;   
+}
+#bannerSection .qOdea {
+    color: #D9A83A;
+}
+/**/
+
 /* Start Header Section CSS */
 #sectionHeader {
     padding: 70px 0 0 0;
@@ -396,6 +406,19 @@ ul {
 ul li {
     display: inline-block;
 }
+/* Start of Gradient Color for Headings*/
+
+h2.headerGradient {
+    background: #283E46;
+    font-size: 70px;
+    background: -webkit-linear-gradient(to right, #283E46 0%, #76B7B7 80%);
+    background: -moz-linear-gradient(to right, #283E46 0%, #76B7B7 80%);
+    background: linear-gradient(to right, #283E46 0%, #76B7B7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* End of Gradient Color for Headings*/
 
 /* Start Our Stats CSS*/
 #sectionFunctionAutomated {
